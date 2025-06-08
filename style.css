@@ -1,0 +1,104 @@
+
+#googlefonts {
+  font-family: "Kapakana", cursive;
+}
+nav{
+box-shadow: 15px 3px 10px rgb(4, 58, 80);
+padding-right: 5%;
+margin-top:2%;
+}
+nav ul{
+width: 100%;
+list-style: none;
+display: flex;
+align-items: center;
+}
+
+nav li{
+height: 45px;
+display: flex;
+}
+nav a{
+padding: 0 55px;
+text-decoration: none;
+display: flex;
+align-items: center;
+color: rgb(245, 137, 14);
+font-weight: bold;font-size: large;
+}
+nav a:hover{
+background-color: rgb(228, 228, 223);
+}
+
+nav li:first-child{
+margin-right: auto;
+color: rgb(241, 241, 238);
+font-weight: bold;font-size: large;
+}
+nav li:second-child{
+ margin-right: auto;
+padding: 1%;color: rgb(241, 241, 238);
+font-weight: bold;font-size: large;
+  
+}
+.sidebar{
+position: fixed;
+top: 0;right: 0;
+height: auto;
+width: 150px;
+z-index: 999;
+background-color: #0c0c0c;
+backdrop-filter: blur(10px);
+box-shadow: -10px 0 10px rgb(238, 237, 237);
+display: none;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.sidebar li{
+width: 90%;
+}
+.sidebar a{
+width: 100%;
+}
+.menu-button{
+display: none;
+}
+@media(max-width:450px){
+.hideOnmobile{
+display: none;
+}
+.menu-button{
+display: block;
+}
+}
+@media(max-width:350px){
+.sidebar{
+width: 100%;
+}
+}
+.TABLE BORDER{
+margin :  10% 10% 10% 10%;
+}
+#chaticon{
+position: fixed;
+right:2%;
+bottom: 7rem;
+background-image: linear-gradient(to right, #c7b7a800, rgb(155, 93, 12));
+background-color: rgb(201, 179, 109);
+animation: mymove 10s infinite;
+color: aliceblue;
+
+}
+
+@keyframes mymove {
+  from {background-color: rgb(180, 150, 85);}
+  to {background-color: rgb(157, 238, 6);}
+}
+.download{
+    text-decoration: none;
+    border-radius: 40px;
+    font-size:15px;
+    margin-top:30px;
+}
+
